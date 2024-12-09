@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('036c58a5-222b-4d67-b45e-3386b81c504f_woman-libre-1200_default_0.jpg'); /* Reemplaza con tu imagen de fondo */
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 25%;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.login-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.login-box button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .login-box {
+        width: 90%;
+    }
+}
